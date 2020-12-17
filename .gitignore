@@ -83,3 +83,19 @@ client/sw.*
 
 # Vim swap files
 client/*.swp
+
+# Server
+
+server/node_modules
+server/public/hot
+server/public/storage
+server/storage/*.key
+server/vendor
+server/.env
+server/.env.backup
+server/.phpunit.result.cache
+server/docker-compose.override.yml
+server/Homestead.json
+server/Homestead.yaml
+server/npm-debug.log
+server/yarn-error.log
